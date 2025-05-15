@@ -1,11 +1,12 @@
 import './App.css';
-
+import Menu from "./components/menu/Menu";
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
-  );
+ return (
+ <section className="app">
+  <header className="app-header">
+    <Menu/>
+  </header>
+ </section>
+ );
 }
-
 export default App;
