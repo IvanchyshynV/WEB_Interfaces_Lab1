@@ -1,8 +1,26 @@
 .app {
-  min-height: 100vh;
-  background-color: #f8f9fa;
+  text-align: center;
 }
 
 .app-header {
-  margin-bottom: 2rem;
+  background-color: #282c34;
+  margin-bottom: 1rem;
 }
+
+.fixed-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fixed-card .card-body {
+  flex-grow: 1;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 180px;
+  object-fit: contain; /* 👈 switch from 'cover' to 'contain' */
+  padding: 10px;
+}
+
